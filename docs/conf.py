@@ -43,7 +43,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'TakeoutTech API Documentation'
+project = u'TakeoutTech API'
 copyright = u'2017, Takeout Technologies'
 
 # The version info for the project you're documenting, acts as replacement for
