@@ -16,10 +16,7 @@ Contents:
 
 
 
-Indices and tables
+Quick links
 ==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
 
