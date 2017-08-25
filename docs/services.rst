@@ -1,9 +1,9 @@
 Services
 ===============
+:ref:`Get Start <get-started>'
 
-
-Client Services
----------------
+Client Service
+--------------
 Base URL:
 ``/api/client``
 
@@ -11,17 +11,18 @@ Base URL:
 * Location Detail
 * Location Configuration
 
-Menu Services
----------------
+Menu Service
+--------------
 Base URL:
 ``/api/menu``
 
+:doc`/mennu`
 * Menu (full)
 * Items
 * Modifiers
 
-Order Services
----------------
+Order Service
+--------------
 Base URL:
 ``/api/order``
 
@@ -30,8 +31,8 @@ Base URL:
 * Void Order
 
 
-POS Services
----------------
+POS Service
+--------------
 Base URL:
 ``/api/pos``
 
