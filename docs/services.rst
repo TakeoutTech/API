@@ -1,6 +1,9 @@
+Services
+===============
+
 
 Client Services
-===============
+---------------
 Base URL:
 ``/api/client``
 
@@ -9,7 +12,7 @@ Base URL:
 * Location Configuration
 
 Menu Services
-===============
+---------------
 Base URL:
 ``/api/menu``
 
@@ -18,7 +21,7 @@ Base URL:
 * Modifiers
 
 Order Services
-===============
+---------------
 Base URL:
 ``/api/order``
 
@@ -28,7 +31,7 @@ Base URL:
 
 
 POS Services
-===============
+---------------
 Base URL:
 ``/api/pos``
 
