@@ -8,20 +8,22 @@ This site will be a great resource throughout your project for finding informati
 
 Get Started
 --------
-You and your client should contact Takeout Tech to obtain your API credentials.
+Contact Takeout Tech to obtain your API credentials, once your request is granted, you can obtain the following information from the TakeoutTech portal:
 
-- Obtaining the OAuth Token
-
-- Services
+* client_id and client_secret 
+* username and password
 
 What's next and Tools
 ------------
-
-akeoutTech integration API contains a set of REST style endpoints, grouped into service areas.
+TakeoutTech integration API contains a set of REST style endpoints, grouped into service areas.
 
 Step 1: Obtaining the OAuth Token
 
-Step 2: Using the services
+Step 2: Services
+* Client
+* Menu
+* Order
+* POS
 
 POSTMAN
 - scripts
