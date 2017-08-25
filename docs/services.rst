@@ -1,7 +1,8 @@
 Services
 ===============
 :ref:`Get Start <get-started>`
-Visit `TOT`
+
+Visit `TOT`_
 
 .. _TOT https://www.takeouttech.com
 
@@ -19,7 +20,7 @@ Menu Service
 Base URL:
 ``/api/menu``
 
-:doc`/mennu`
+:doc`/mennu/index`
 
 * Menu (full)
 * Items
