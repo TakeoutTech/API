@@ -1,3 +1,4 @@
-====
-Menu Servies
-====
+Menu API
+============
+
+.. toctree::
