@@ -20,7 +20,7 @@ Menu Service
 Base URL:
 ``/api/menu``
 
-:doc`/mennu/index`
+:doc:`/mennu/index`
 
 * Menu (full)
 * Items
