@@ -9,6 +9,8 @@ Client Service
 Base URL:
 ``/api/client``
 
+:doc:`/services/menu`
+
 * All locations
 * Location Detail
 * Location Configuration
