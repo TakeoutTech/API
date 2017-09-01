@@ -4,7 +4,7 @@ Welcome to the TakeoutTech integration API.
 
 This site will help you augment your great product with our Menu, Location and POS integration services. We are very excited to see what you come up with.
 
-This site will be a great resource throughout your project for finding information on our REST API.
+This site will be a great resource throughout your project for finding information on our REST API.  Good luck!
 
 Get Started
 --------
