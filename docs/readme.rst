@@ -33,10 +33,9 @@ Quick-Start
 OAuth 2.0 is a protocol that allows your application to request authorization for access to granted services.
 
 POST ``/api/auth/token``
-
-* client_id = [the_client_id]
-* client_secret = [the_client_secret]
-* grant_type = password
+  * client_id = [the_client_id]
+  * client_secret = [the_client_secret]
+  * grant_type = password
 
 A bearer token will be returned, this token must be passed along with every request to the TakeoutTech API endpoints.
 
@@ -46,18 +45,17 @@ Depending on the desirable action, note the GET, POST, PUT, DELETE action used a
 
 Example:
 
-GET ``/api/client``
-
-[header] Authorization: Bearer [the bearer token obtained in Step 1]
+GET ``/api/client/locations``
+  * [header] Authorization: Bearer [the bearer token obtained in Step 1]
 
 This request will return a list of locations configured for the given client_id, client_secret pair.
 
 Quick links
 ~~~~~~~~~~~
-* Client
-* Menu
-* Order
-* POS
+* :doc:`/api/client`
+* :doc:`/api/menu`
+* :doc:`/api/order`
+* :doc:`/api/pos`
 
 Tools
 ~~~~~
