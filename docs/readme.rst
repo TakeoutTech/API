@@ -21,6 +21,7 @@ What's next and Quick-Start Steps
 ---------------------------------
 
 Development/Production base urls:
+
 * Developement: https://dev.takeouttech.com/api
 * Production: (TBA)
 
@@ -30,6 +31,7 @@ Step 1: Athentication - obtaining the OAuth 2.0 Token
 OAuth 2.0 is a protocol that allows your application to request authorization for access to granted services.
 
 POST to: ``/auth/token`` providing these parmeters:
+
 * client_id = [the_client_id]
 * client_secret = [the_client_secret]
 * grant_type = password
