@@ -10,6 +10,7 @@ GET ``/client/locations``
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 Example Response:
+
 .. code:: javascript
 
   [
@@ -36,6 +37,7 @@ GET ``/client/location``
   * id: string, the GUID for this location
 
 Example Response:
+
 .. code:: javascript
   {
       "Phone": "(212) 983-7374",
