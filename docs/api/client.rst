@@ -6,7 +6,7 @@ Client Service
 Use this service to obtain location information 
 
 
-GET ``/client/locations``
+GET ``/api/client/locations``
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 Example Response:
@@ -32,7 +32,7 @@ Example Response:
   ]
 
 
-GET ``/client/location``
+GET ``/api/client/location``
 ~~~~~~~~~~~~~~~~~~~~~~~~
   * id: string, the GUID for this location
 
