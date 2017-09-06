@@ -1,12 +1,5 @@
 .. _rest_encoding:
 
-JSON and XML Encoding Details
-=============================
-
-This page describes how values are encoded to JSON for use with the Paytornix API. All API calls are documented using JSON however XML can also be used by changing the endpoint URL from ``.json`` to ``.xml`` and providing appropriately formatted XML.
-
-
-
 Order Service
 -------------
 
@@ -25,6 +18,7 @@ We recommend a daily sync of sites and menus to keep their pricing current.
     Examples:
 
     .. code:: javascript
+    
       {
         "uuid": "[orderGUID] - leave empty", //supplied on return
         "status": "[status] - leave empty",  //supplied on return
