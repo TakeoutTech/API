@@ -4,7 +4,7 @@ Welcome to the TakeoutTech integration API.
 
 This site will help you augment your great product with our Menu, Location, Order and POS integration services. We are very excited to see what you come up with.
 
-The TakeoutTech API consists a set of REST style endpoints. All methods must be inovked using HTTPS, with arguments pass as GET or POST parameters, or as body of the request.
+The TakeoutTech API consists a set of REST style endpoints. All methods must be inovked using HTTPS, with arguments passed as GET/POST/PUT/DELETE parameters, or as JSON object within the body of the request.
 
 This site will be a great resource throughout your project for finding information on our REST API.  Good luck!
 
