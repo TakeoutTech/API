@@ -46,7 +46,7 @@ Depending on the desirable action, note the GET, POST, PUT, DELETE action used a
 
 Example:
 
-GET ``/api/client``
+GET ``/client``
 
 [header] Authorization: Bearer [the bearer token obtained in Step 1]
 
