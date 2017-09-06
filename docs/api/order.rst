@@ -76,7 +76,7 @@ Order Body Example:
          "amount": 283
        },
        "diner_grand_total": 2173,          //required, the extended total
-       "grand_total": 2173,                //required, the order's grand total
+       "grand_total": 2173,                //required, the order total
        "line_groups": [                    //=== line groups ===
          {                                 //one linegroup per order; group order: one/each person 
            "label": "",                    //optional, for group order, enter name of person
