@@ -12,6 +12,7 @@ Getting Started
 ---------------
 
 Contact TakeoutTech to obtain your API credentials.
+
 Once your request is granted, you may obtain the following information from the TakeoutTech portal or through your contact representative:
 
 * client_id
@@ -28,9 +29,10 @@ Development/Production base urls:
 Quick-Start
 ~~~~~~~~~~~
 Step 1: Athentication - obtaining the OAuth 2.0 Token
+
 OAuth 2.0 is a protocol that allows your application to request authorization for access to granted services.
 
-POST to: ``/auth/token`` providing these parmeters:
+POST ``/auth/token``
 
 * client_id = [the_client_id]
 * client_secret = [the_client_secret]
@@ -42,8 +44,8 @@ Step 2: Accessing a Service
 Depending on the desirable action, note the GET, POST, PUT, DELETE action used along with the request.
 
 Example:
-GET /api/client
-Authorization: Bearer [the bearer token obtained in Step 1]
+GET ``/api/client``
+[header] Authorization: Bearer [the bearer token obtained in Step 1]
 
 This request will return a list of locations configured for the given client_id, client_secret pair.
 
