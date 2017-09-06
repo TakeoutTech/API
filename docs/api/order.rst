@@ -11,9 +11,18 @@ Use this service to submit, update, void orders.
 
    We recommend a daily sync of sites and menus to keep their pricing current.
 
-POST ``/api/order/submit``
+GET ``/api/order``
+~~~~~~~~~~~~~~~~~~
 
-Order Example:
+   * id: string, id of the order
+   * posType: string, type of POS system, leave blank for HTML render of the order
+   
+   
+
+POST ``/api/order/submit``
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Order Body Example:
 
 .. code:: javascript
 
