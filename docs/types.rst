@@ -1,9 +1,9 @@
 .. _rest_encoding:
 
-JSON Encoding Details
+JSON Encoding
 =============================
 
-This page describes how values are encoded to JSON for use with the Paytornix API. All API calls are documented using JSON however XML can also be used by changing the endpoint URL from ``.json`` to ``.xml`` and providing appropriately formatted XML.
+This page describes how values are encoded to JSON for use with the API.
 
 Encoding of Types
 -----------------
