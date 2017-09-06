@@ -18,16 +18,6 @@ Order Example:
 .. code:: javascript
 
    {
-     "uuid": "[orderGUID] - leave empty", //supplied on return
-     "status": "[status] - leave empty",  //supplied on return
-     "statusHistory": [ //supplied on return
-       {
-         "status": "UNCONFIRMED",
-         "timestamp": "2016-11-30T20:01:45.107Z",
-         "update_source": "GRUBHUB",
-         "reason": "GHCORE STATUS CALLING"
-       }
-     ],
      "merchant_id": "[storeGUID]", //required
      "fulfillment_info": {         //require either delivery_info or pickup_info
        "delivery_info": {          //required if delivery, null otherwise
@@ -114,4 +104,20 @@ Order Example:
        "coupons": [] //optional: future use
      }
    }
+
+The following segment is appended to top of order on reply:
+.. code:: javascript
+   {
+     "uuid": "[orderGUID] - leave empty", //supplied on return
+     "status": "[status] - leave empty",  //supplied on return
+     "statusHistory": [ //supplied on return
+       {
+         "status": "PENDING",
+         "timestamp": "2016-11-30T20:01:45.107Z",
+         "update_source": "",
+         "reason": "Order received"
+       }
+     ],
+     ... [the order body]
+    }
 
