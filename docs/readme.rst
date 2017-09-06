@@ -23,7 +23,7 @@ What's next and Quick-Start Steps
 
 Development/Production base urls:
 
-* Developement: https://dev.takeouttech.com/api
+* Developement: https://dev.takeouttech.com
 * Production: (TBA)
 
 Quick-Start
@@ -32,13 +32,13 @@ Quick-Start
 
 OAuth 2.0 is a protocol that allows your application to request authorization for access to granted services.
 
-POST ``/auth/token``
+POST ``/api/auth/token``
 
 * client_id = [the_client_id]
 * client_secret = [the_client_secret]
 * grant_type = password
 
-A bearer token will be returned, this token must be passed along with all the requests to the TakeoutTech API methods.
+A bearer token will be returned, this token must be passed along with every request to the TakeoutTech API endpoints.
 
 **Step 2: Accessing a Service**
 
@@ -46,7 +46,7 @@ Depending on the desirable action, note the GET, POST, PUT, DELETE action used a
 
 Example:
 
-GET ``/client``
+GET ``/api/client``
 
 [header] Authorization: Bearer [the bearer token obtained in Step 1]
 
