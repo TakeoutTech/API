@@ -106,7 +106,9 @@ Order Example:
    }
 
 The following segment is appended to top of order on reply:
+
 .. code:: javascript
+
    {
      "uuid": "[orderGUID] - leave empty", //supplied on return
      "status": "[status] - leave empty",  //supplied on return
