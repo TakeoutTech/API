@@ -44,7 +44,9 @@ Step 2: Accessing a Service
 Depending on the desirable action, note the GET, POST, PUT, DELETE action used along with the request.
 
 Example:
+
 GET ``/api/client``
+
 [header] Authorization: Bearer [the bearer token obtained in Step 1]
 
 This request will return a list of locations configured for the given client_id, client_secret pair.
