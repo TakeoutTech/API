@@ -1,15 +1,12 @@
 Services
 ===============
 .. note::
-    Visit TOT_, login at the Portal to obtain the api credentials
-    .. _TOT: https://www.takeouttech.com
+    Visit https://www.takeouttech.com, login to the Portal to obtain your api credentials.
 
 Client Service
 --------------
-Base URL:
-``/api/client``
-
-:doc:`/services/menu`
+Base URL + ``/client``
+:doc:`/services/client`
 
 * All locations
 * Location Detail
@@ -17,29 +14,29 @@ Base URL:
 
 Menu Service
 --------------
-Base URL:
-``/api/menu``
-
+Base URL + ``/menu``
 :doc:`/services/menu`
 
-* Menu (full)
+* Menu
 * Items
 * Modifiers
 
 Order Service
 --------------
-Base URL:
-``/api/order``
+Base URL + ``/order``
+:doc:`/services/order`
 
 * Submit Order
 * Update Order
-* Void Order
+* Cancel Order
+* Order Status
 
 
 POS Service
 --------------
-Base URL:
-``/api/pos``
+Base URL + ``/pos``
+:doc:`/services/pos`
 
 * Configuration
+* Remote Operations
 * Status
