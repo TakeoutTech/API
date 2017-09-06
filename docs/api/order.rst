@@ -79,7 +79,7 @@ Order Body Example:
        "grand_total": 2173,                //required, the order total
        "line_groups": [                    //=== line groups ===
          {                                 //one linegroup per order; group order: one/each person 
-           "label": "",                    //optional, for group order, enter name of person
+           "label": "",                    //optional, for group order, name of person
            "lines": [                          //=== lines ===
              {                                 //one line object per item
                "id": "[itemPOSID]",            //required, the POSID
@@ -93,7 +93,7 @@ Order Body Example:
                "item_type": "",                //optional, future use
                "variation_id": "",             //optional, future use
                "line_options": [                 //=== line options (modifiers) ===
-                 {                               //optional, if none, return empty array []
+                 {                               //optional, if none, send empty array []
                    "id": "[modPOSID]",           //required
                    "name": "Name of Mod",        //required
                    "price": 0,                   //required
