@@ -1,12 +1,17 @@
+.. _rest_encoding:
+
 Client Service
 --------------
 
-Locations
-~~~~~~~~~
-.. http:get:: ``/client/locations``
+Use this service to 
 
+
+.. http:get:: ``/client/locations``
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Example Response:
+
 .. code:: javascript
+
   [
       {
           "ID": "d48c30e0-3c52-450f-b068-fcd8bcb47d7f",
