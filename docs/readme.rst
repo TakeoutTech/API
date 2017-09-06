@@ -28,7 +28,7 @@ Development/Production base urls:
 
 Quick-Start
 ~~~~~~~~~~~
-Step 1: Athentication - obtaining the OAuth 2.0 Token
+**Step 1: Athentication - obtaining the OAuth 2.0 Token**
 
 OAuth 2.0 is a protocol that allows your application to request authorization for access to granted services.
 
@@ -40,7 +40,8 @@ POST ``/auth/token``
 
 A bearer token will be returned, this token must be passed along with all the requests to the TakeoutTech API methods.
 
-Step 2: Accessing a Service
+**Step 2: Accessing a Service**
+
 Depending on the desirable action, note the GET, POST, PUT, DELETE action used along with the request.
 
 Example:
