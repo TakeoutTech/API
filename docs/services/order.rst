@@ -12,7 +12,7 @@ We recommend a daily sync of sites and menus to keep their pricing current.
 
 Sample order:
 All amount values are in $.$$x100 integers
-``
+
 {
   "uuid": "[orderGUID] - leave empty", //supplied on return
   "status": "[status] - leave empty",  //supplied on return
@@ -110,4 +110,4 @@ All amount values are in $.$$x100 integers
     "coupons": [] //optional: future use
   }
 }
-``
+
