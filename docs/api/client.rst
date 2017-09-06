@@ -39,6 +39,7 @@ GET ``/client/location``
 Example Response:
 
 .. code:: javascript
+
   {
       "Phone": "(212) 983-7374",
       "Fax": "(212) 953-7378",
