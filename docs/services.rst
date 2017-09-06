@@ -3,28 +3,25 @@ Services
 .. note::
     Visit https://www.takeouttech.com, login to the Portal to obtain your api credentials.
 
-Client Service
+:doc:`/services/client`
 --------------
 Base URL + ``/client``
-:doc:`/services/client`
 
 * All locations
 * Location Detail
 * Location Configuration
 
-Menu Service
+:doc:`/services/menu`
 --------------
 Base URL + ``/menu``
-:doc:`/services/menu`
 
 * Menu
 * Items
 * Modifiers
 
-Order Service
+:doc:`/services/order`
 --------------
 Base URL + ``/order``
-:doc:`/services/order`
 
 * Submit Order
 * Update Order
@@ -32,10 +29,9 @@ Base URL + ``/order``
 * Order Status
 
 
-POS Service
+:doc:`/services/pos`
 --------------
 Base URL + ``/pos``
-:doc:`/services/pos`
 
 * Configuration
 * Remote Operations
