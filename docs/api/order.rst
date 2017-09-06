@@ -9,9 +9,9 @@ Use this service to submit, update, void orders.
 
    For POS integrated orders: Update and Void action can only be performed before the order is submitted into the restaurant's POS system; and only sites that are configured will accept these actions.
 
-We recommend a daily sync of sites and menus to keep their pricing current.
+   We recommend a daily sync of sites and menus to keep their pricing current.
 
-``/order/submit``
+POST ``/api/order/submit``
 
 Order Example:
 
@@ -69,7 +69,7 @@ Order Example:
        "diner_grand_total": 2173,          //required, the extended total
        "grand_total": 2173,                //required, the order's grand total
        "line_groups": [                    //=== line groups ===
-         {                                 //one per each person for group order, otherwise, 1 linegroup per order
+         {                                 //one linegroup per order; group order: one/each person 
            "label": "",                    //optional, for group order, enter name of person
            "lines": [                          //=== lines ===
              {                                 //one line object per item
@@ -105,14 +105,14 @@ Order Example:
      }
    }
 
-The following segment is appended to top of order on reply:
+The following segment will be appended to top of order on reply:
 
 .. code:: javascript
 
    {
-     "uuid": "[orderGUID] - leave empty", //supplied on return
-     "status": "[status] - leave empty",  //supplied on return
-     "statusHistory": [ //supplied on return
+     "uuid": "[orderGUID]",
+     "status": "[status]",
+     "statusHistory": [
        {
          "status": "PENDING",
          "timestamp": "2016-11-30T20:01:45.107Z",
