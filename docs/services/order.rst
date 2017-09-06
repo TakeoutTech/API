@@ -1,3 +1,5 @@
+.. _rest_encoding:
+
 Order Service
 -------------
 
@@ -10,9 +12,12 @@ We recommend a daily sync of sites and menus to keep their pricing current.
 
 ``/order/submit``
 
-Sample order:
+Example order:
+
 All amount values are in $.$$x100 integers
+
 .. code:: javascript
+
 {
   "uuid": "[orderGUID] - leave empty", //supplied on return
   "status": "[status] - leave empty",  //supplied on return
