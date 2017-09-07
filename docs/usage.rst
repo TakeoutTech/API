@@ -6,12 +6,12 @@ Usage Examples
 .. attention::
   [work in progress]
   
-/api/auth/token
-~~~~~~~~~~~~~~~
+``/api/auth/token``
+~~~~~~~~~~~~~~~~~~~
 
 **cURL/javascript**
 
-.. code:: cURL
+.. code::
 
   curl -X POST \
     https://dev.takeouttech.com/auth/token \
