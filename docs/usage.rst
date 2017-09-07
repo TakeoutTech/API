@@ -9,7 +9,9 @@ Useful POSMan scripts...
   [work in progress]
   
 **cURL script**
+
 .. code:: javascript
+
   var settings = {
     "async": true,
     "crossDomain": true,
@@ -27,7 +29,9 @@ Useful POSMan scripts...
   });
 
 **C# RestSharp**
+
 .. code:: C#
+
   var client = new RestClient("https://dev.takeouttech.com/auth/token");
   var request = new RestRequest(Method.POST);
   request.AddHeader("content-type", "application/x-www-form-urlencoded");
