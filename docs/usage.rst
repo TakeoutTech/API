@@ -15,7 +15,7 @@ Usage Examples
     -H 'content-type: application/x-www-form-urlencoded' \
     -d 'grant_type=password&client_id=YXBwbGljYXRpb25hcGlrZXkxODM%3D&client_secret=YXBwbGljYXRpb25zZWNyZXRrZXkzMDg%3D'
 
-.. code::
+.. code:: javascript
 
   $.ajax({
     "async": true,
