@@ -3,16 +3,21 @@
 Usage Examples
 ==============
 
-Useful POSMan scripts... 
-
 .. attention::
   [work in progress]
   
 **cURL script**
 
-.. code:: javascript
+.. code::
 
-  var settings = {
+  curl -X POST \
+    https://dev.takeouttech.com/auth/token \
+    -H 'content-type: application/x-www-form-urlencoded' \
+    -d 'grant_type=password&client_id=YXBwbGljYXRpb25hcGlrZXkxODM%3D&client_secret=YXBwbGljYXRpb25zZWNyZXRrZXkzMDg%3D'
+
+.. code::
+
+  $.ajax({
     "async": true,
     "crossDomain": true,
     "url": "https://dev.takeouttech.com/auth/token",
@@ -22,9 +27,7 @@ Useful POSMan scripts...
       "client_id": "YXBwbGljYXRpb25hcGlrZXkxODM=",
       "client_secret": "YXBwbGljYXRpb25zZWNyZXRrZXkzMDg="
     }
-  }
-
-  $.ajax(settings).done(function (response) {
+  }).done(function (response) {
     console.log(response);
   });
 
