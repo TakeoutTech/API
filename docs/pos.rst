@@ -1,5 +1,5 @@
-POS Setup and Configuration
-===========================
+Setup and Configuration of POS
+==============================
 
 :doc:`/pos`
 
