@@ -58,7 +58,9 @@ Order Body Example:
      "payments": {                         //=== payments ===
        "payments": [                       //required
          {                                 //at least 1 payment must be present 
-           "payment_type": "CASH",         //required, type: CASH, CREDIT
+           "payment_type": "CASH",         //required, type: CASH, CREDIT, OTHER
+           "payment_name": "Visa",         //optional, name: Visa, MasterCard, AMEX, Discover, [PaymentName]
+           "payment_ref": "",              //optional, payment reference/notes
            "amount": 2173                  //required, amount of this payment type
          }
        ],
