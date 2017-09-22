@@ -41,9 +41,19 @@ Example Response:
 .. code:: javascript
 
   {
+      "ID": "d48c30e0-3c52-450f-b068-fcd8bcb47d7f",
+      "MenuID": "7ca9aafd-9ec2-4bff-8224-a4a7cc9710f9",  //**this is the MenuID for this location**
+      "ClientID": 195,
+      "LocationID": 2576,
+      "Name": "Takeout Cafe",
+      "HasPickup": true,
+      "HasDelivery": true,
+      "CurbsidePickup": true,
+      "AllowGroupOrder": true,
+      "TaxRate": 7.5,
       "Phone": "(212) 983-7374",
       "Fax": "(212) 953-7378",
-      "MenuID": "7ca9aafd-9ec2-4bff-8224-a4a7cc9710f9",  //**this is the MenuID for this location**
+      "Active": true,
       "Address": {
           "ID": 2774628,
           "Street": " Lexington Avenue",
@@ -198,8 +208,5 @@ Example Response:
               "DinnerCloseTime": "12:00 AM"
           }
       ],
-      "Holidays": [],
-      "ID": "483915c0-38d3-4f66-8fdf-0907ef68fa06",
-      "Name": "Fresh & Co. (85th/Lex)",
-      "Active": false
+      "Holidays": []
   }
