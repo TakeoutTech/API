@@ -32,7 +32,7 @@ Quick-Start
 
 OAuth 2.0 is a protocol that allows your application to request authorization for access to granted services.
 
-POST ``/api/auth/token``
+POST ``/auth/token``
   * client_id = [the_client_id]
   * client_secret = [the_client_secret]
   * grant_type = password
