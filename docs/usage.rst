@@ -6,7 +6,7 @@ Usage Examples
 .. attention::
   [work in progress]
   
-``/api/auth/token``
+``/auth/token``
 ~~~~~~~~~~~~~~~~~~~
 
 **cURL/javascript**
