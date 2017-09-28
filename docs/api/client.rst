@@ -8,9 +8,16 @@ Use this service to obtain location information
 
 GET ``/api/client/locations``
 ~~~~~~~~~~~~~~~~~~~~~~~~
+Example Request:
+
+.. code:: javascript
+
+  curl -X GET \
+    https://dev.takeouttech.com/api/client/locations \
+    -H 'authorization: Bearer [theToken]
 
 Example Response:
-
+  
 .. code:: javascript
 
   [
@@ -35,6 +42,13 @@ Example Response:
 GET ``/api/client/location``
 ~~~~~~~~~~~~~~~~~~~~~~~~
   * id: string, the GUID for this location
+Example Request:
+
+.. code:: javascript
+
+  curl -X GET \
+    http://dev.takeouttech.com/api/client/location?id=[theLocationGUID] \
+    -H 'authorization: Bearer [theToken]
 
 Example Response:
 
