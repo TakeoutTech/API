@@ -6,6 +6,7 @@ Services
 The response data will be returned in a standard reponse wrapper as below:
 
 Sample Success Response:
+
 .. code:: javascript
 
     {
@@ -17,6 +18,7 @@ Sample Success Response:
     }
     
 Sample Failure resopnse:
+
 .. code:: javascript
 
     {
