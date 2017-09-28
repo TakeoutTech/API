@@ -16,7 +16,15 @@ Menu data are returned in two modes:
 GET ``/api/menu``
 ~~~~~~~~~~~~~~~~~~~~~~~~
   * id: string, the GUID for this Menu
-  
+
+Example Request:
+
+.. code:: javascript
+
+  curl -X GET \
+    'http://dev.takeouttech.com/api/menu?id=[theMenuGUID]' \
+    -H 'authorization: Bearer [theToken]
+
 Example Response:
 
 .. code:: javascript
