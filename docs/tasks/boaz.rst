@@ -1,8 +1,8 @@
 Boaz's Top Priorities
 =====================
+Updated: 10/13/2017
 
-
-1 Paytronix
+1. Paytronix
 ~~~~~~~~~~~
 - SSO, itemized redemption certification
 - once complete - work thru all existing client to get them configured, priorities
