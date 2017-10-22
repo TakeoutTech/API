@@ -1,19 +1,21 @@
 Boaz's Top Priorities
 =====================
-Updated: 10/13/2017
+Updated: 10/22/2017
 
-1. Paytronix
-~~~~~~~~~~~
-- SSO, itemized redemption certification
-- once complete - work thru all existing client to get them configured, priorities
-  
-  J.P. Licks, Tastea, Coplands, others...
+Old links...
 
-
-2. CallCenter CC management
+1. CallCenter CC management - Migrating
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - TGate, Mercury (will use AES encryption)
 - WebLink3 (toknized, save in AES)
+
+
+2. Paytronix - PENDING Paytronix Production grant
+~~~~~~~~~~~
+- SSO, itemized redemption certification - DONE
+- work thru all existing client to get them configured, priorities
+
+  J.P. Licks, Tastea, Coplands, others...
 
 
 3. DAAS
