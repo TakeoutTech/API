@@ -17,10 +17,30 @@ GET ``/api/order``
    * id: string, id of the order
    * posType: string, type of POS system, leave blank for HTML render of the order
    
+POST ``/api/order/calculate``
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Order Body Example:
+
+.. code:: javascript 
    
+   [see Order Body Example]
+   
+   * charges object will be updated
+   * diner_grand_total, grand_total will be updated
+
+  
 
 POST ``/api/order/submit``
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+URL Parameter:
+
+   * calc: boolean (true/false)
+   
+   true: perform calculation, overwrite supplied prices and line totals
+   
+   false: use the supplied price and line totals without price look up, performs no intneral calculation
 
 Order Body Example:
 
@@ -68,17 +88,17 @@ Order Body Example:
        "adjusted_total": 2173              //required
      },
      "charges": {                          //=== chargess ===
-       "fees": {                           //required if delivery
+       "fees": {                           //optional: fee will be returned if there's delivery fee
          "total": 100
        },
-       "taxes": {                          //required
+       "taxes": {                          //required if calc == false
          "total": 90
        },
        "tip": {                            //required if has tip, other fill 0
          "amount": 283
        },
-       "diner_grand_total": 2173,          //required, the extended total
-       "grand_total": 2173,                //required, the order total
+       "diner_grand_total": 2173,          //required if calc == false, the extended total
+       "grand_total": 2173,                //required if calc == false, the order total
        "line_groups": [                    //=== line groups ===
          {                                 //one linegroup per order; group order: one/each person 
            "label": "",                    //optional, for group order, name of person
@@ -88,10 +108,10 @@ Order Body Example:
                "name": "Name of item",         //required
                "description": "",              //optional 
                "special_instructions": "",     //optional
-               "price": 850,                   //required
-               "quantity": 2,                  //required
-               "diner_total": 1700,            //required, however - may not be honored by POS
-               "total": 1700,                  //required
+               "price": 850,                   //required, if set to -99 => forces price look up
+               "quantity": 2,                  //required, must be positive number > 0
+               "diner_total": 1700,            //required, if price set to -99, this is overwritten (may not be honored by POS)
+               "total": 1700,                  //required, if price set to -99, this is overwritten
                "item_type": "",                //optional, future use
                "variation_id": "",             //optional, future use
                "line_options": [                 //=== line options (modifiers) ===
