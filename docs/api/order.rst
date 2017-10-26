@@ -20,14 +20,84 @@ GET ``/api/order``
 POST ``/api/order/calculate``
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. note::
+
+   * charges fees, tax, tip, will be added on reutrn; however, tip should be updated by submit method
+   * diner_grand_total, grand_total will be updated
+   
 Order Body Example:
 
 .. code:: javascript 
    
-   [see Order Body Example]
-   
-   * charges object will be updated
-   * diner_grand_total, grand_total will be updated
+   {
+     "uuid": "",
+     "status": "",
+     "merchant_id": "d48c30e0-3c52-450f-b068-fcd8bcb47d7f",
+     "fulfillment_info": {
+       "delivery_info": {
+         "address": {
+           "address_line1": "line1",
+           "address_line2": "line2",
+           "city": "city",
+           "state": "st",
+           "country": "US",
+           "zip_code": "12345"
+         },
+         "is_managed_delivery": false,
+         "estimated_delivery_time": "2016-11-30T20:25:00.000Z",
+         "instruction": "",
+         "contact_info": {
+           "phone": "(111) 222-1234",
+           "name": "First Last"
+         }
+       },
+       "pickup_info": {
+         "contact_info": {
+           "phone": "(111) 222-1234",
+           "name": "First Last"
+         }
+       }
+     },
+     "time_placed": "2016-11-30T19:58:15.511Z",
+     "when_for": "2016-11-30T20:28:15.146Z",
+     "charges": {
+       "line_groups": [
+         {
+           "label": "",
+           "lines": [
+             {
+               "id": "112233",
+               "name": "Name of item",
+               "description": "",
+               "special_instructions": "",
+               "price": 850,
+               "quantity": 2,
+               "diner_total": 1700,
+               "total": 1700,
+               "item_type": "",
+               "variation_id": "",
+               "line_options": [
+                 {
+                   "id": "111",
+                   "name": "Name of Mod",
+                   "price": 0,
+                   "line_sub_options": []
+                 },
+                 {
+                   "id": "4053",
+                   "name": "Pepper Jack",
+                   "price": 0,
+                   "line_sub_options": []
+                 }
+               ]
+             }
+           ]
+         }
+       ],
+       "coupons": []
+     }
+   }
+
 
   
 
