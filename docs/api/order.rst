@@ -109,7 +109,7 @@ URL Parameter:
    * calc: boolean (true/false)
    
       - true: perform calculation, overwrite supplied prices and line totals (TBI!!!)
-      - false: use the supplied price and line totals without price look up, performs no intneral calculation
+      - false: use the supplied price and line totals without price look up, performs no calculation overwrites
 
 Order Body Example:
 
