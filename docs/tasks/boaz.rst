@@ -17,13 +17,17 @@ Old links...
   - Selland - testing
   - Gregg’s - testing
   - Tastea
-  - J.P. LIcks
+  - J.P. LIcks *****
   - Kicken Chickn
   ---------
   - ZingBurger
   - Matchbook
   - Federal Jacks
-
+  
+-------------------------
+  
+- Freedom PAY
+- NorthStar POS integration
 
 
 3. DAAS
@@ -45,12 +49,8 @@ Old links...
 - POLL API (q replacement?)
 
 
-
 5. others
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-- Freedom PAY
-- NorthStar POS integration
-
 Portal related:
 - location update - clear domain cache by url
 - location create - copy/create theme folder
