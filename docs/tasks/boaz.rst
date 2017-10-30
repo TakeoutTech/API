@@ -10,21 +10,19 @@ Old links...
 - WebLink3 (toknized, save in AES)
 
 
-2. Paytronix - PENDING Paytronix Production grant
-~~~~~~~~~~~
-- SSO, itemized redemption certification - DONE
-
-  # Oberweis - sso/testing
-  # Coplands - testing
-  # Selland - testing
-  # Gregg’s - testing
-  # Tastea
-  # J.P. LIcks
-  # Kicken Chickn
+2. Paytronix
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  - Oberweis - sso/testing
+  - Coplands - testing
+  - Selland - testing
+  - Gregg’s - testing
+  - Tastea
+  - J.P. LIcks
+  - Kicken Chickn
   ---------
-  # ZingBurger
-  # Matchbook
-  # Federal Jacks
+  - ZingBurger
+  - Matchbook
+  - Federal Jacks
 
 
 
