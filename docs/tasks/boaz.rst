@@ -13,12 +13,18 @@ Old links...
 2. Paytronix - PENDING Paytronix Production grant
 ~~~~~~~~~~~
 - SSO, itemized redemption certification - DONE
-  # Oberweis
-  #Coplands - testing
-  #Selland - testing
-  #Tastea
-  #J.P. LIcks
-  
+  # Oberweis - sso/testing
+  # Coplands - testing
+  # Selland - testing
+  # Gregg’s - testing
+  # Tastea
+  # J.P. LIcks
+  # Kicken Chickn
+  ---------
+  # ZingBurger
+  # Matchbook
+  # Federal Jacks
+
 
 
 3. DAAS
