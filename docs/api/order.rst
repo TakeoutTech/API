@@ -157,13 +157,14 @@ Order Body Example:
        "adjusted_total": 2173              //required
      },
      "charges": {                          //=== chargess ===
-       "fees": {                           //optional: fee will be returned if there's delivery fee
-         "total": 100
+       "fees": {                           //optional: supplied by integrator
+         "delivery": 100,                  //delivery fee (positive number, this will be added to total)
+         "discount": 250                   //discount total (positive number, this will be subtracted from total)
        },
-       "taxes": {                          //required if calc == false
+       "taxes": {                          //Calculate method ignores this field
          "total": 90
        },
-       "tip": {                            //required if has tip, other fill 0
+       "tip": {                            //required if has tip, otherwise set to 0
          "amount": 283
        },
        "diner_grand_total": 2173,          //required if calc == false, the extended total
@@ -177,10 +178,10 @@ Order Body Example:
                "name": "Name of item",         //required
                "description": "",              //optional 
                "special_instructions": "",     //optional
-               "price": 850,                   //required, if set to -99 => forces price look up
+               "price": 850,                   //Calculate overwrites - by price look up of supplied POSID
                "quantity": 2,                  //required, must be positive number > 0
-               "diner_total": 1700,            //required, if price set to -99, this is overwritten (may not be honored by POS)
-               "total": 1700,                  //required, if price set to -99, this is overwritten
+               "diner_total": 1700,            //Calculate overwrites (note: this may not be honored by some POS)
+               "total": 1700,                  //Calculate overwrites
                "item_type": "",                //optional, future use
                "variation_id": "",             //optional, future use
                "line_options": [                 //=== line options (modifiers) ===
